@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#88936f"/>
+      <stop offset="1" stop-color="#42583f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <path d="M0 288 L88 192 L152 240 L232 152 L312 232 L400 184 V400 H0 Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M0 336 L120 256 L208 312 L288 240 L400 288 V400 H0 Z" fill="#ffffff" opacity="0.08"/>
+  <text x="50%" y="50%" fill="#F4F1E6" font-family="Georgia, serif" font-size="18" text-anchor="middle" opacity="0.85" letter-spacing="2">Alpine Lake</text>
+  <text x="50%" y="232" fill="#F4F1E6" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" opacity="0.55" letter-spacing="3">REPLACE WITH PHOTO</text>
+</svg>

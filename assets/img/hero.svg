@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d7560"/>
+      <stop offset="1" stop-color="#2E4D3A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <path d="M0 720 L352 480 L608 600 L928 380 L1248 580 L1600 460 V1000 H0 Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M0 840 L480 640 L832 780 L1152 600 L1600 720 V1000 H0 Z" fill="#ffffff" opacity="0.08"/>
+  <text x="50%" y="50%" fill="#F4F1E6" font-family="Georgia, serif" font-size="72" text-anchor="middle" opacity="0.85" letter-spacing="2">Mala Hiša</text>
+  <text x="50%" y="580" fill="#F4F1E6" font-family="Arial, sans-serif" font-size="29" text-anchor="middle" opacity="0.55" letter-spacing="3">REPLACE WITH PHOTO</text>
+</svg>
