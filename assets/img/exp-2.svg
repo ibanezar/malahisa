@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8a6f"/>
+      <stop offset="1" stop-color="#3a5642"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <path d="M0 432 L176 288 L304 360 L464 228 L624 348 L800 276 V600 H0 Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M0 504 L240 384 L416 468 L576 360 L800 432 V600 H0 Z" fill="#ffffff" opacity="0.08"/>
+  <text x="50%" y="50%" fill="#F4F1E6" font-family="Georgia, serif" font-size="36" text-anchor="middle" opacity="0.85" letter-spacing="2">Cycling</text>
+  <text x="50%" y="348" fill="#F4F1E6" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" opacity="0.55" letter-spacing="3">REPLACE WITH PHOTO</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" fill="none">
+  <!-- Mountain triangle -->
+  <path d="M100 12 L188 168 H12 Z" fill="#2E4D3A"/>
+  <!-- Snow cap -->
+  <path d="M100 12 L128 62 L116 54 L108 70 L100 58 L92 72 L83 60 L72 66 Z" fill="#F4F1E6"/>
+  <!-- House cutout -->
+  <g fill="#F4F1E6">
+    <path d="M100 92 L142 128 V168 H58 V128 Z"/>
+    <rect x="120" y="86" width="14" height="26"/>
+  </g>
+  <!-- Door cutout (negative) -->
+  <rect x="92" y="136" width="16" height="32" fill="#2E4D3A"/>
+</svg>

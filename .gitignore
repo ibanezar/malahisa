@@ -1,0 +1,12 @@
+# Dependencies / build
+node_modules/
+package-lock.json
+
+# Local scratch / screenshots
+scratch_*.png
+_shot*.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

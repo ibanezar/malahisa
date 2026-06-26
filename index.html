@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mala Hiša — Artisanal Alpine Haven in Logarska Dolina</title>
+  <meta name="description" content="Mala Hiša — an artisanal alpine haven woven into the landscape of Logarska Dolina, Slovenia. Eco-friendly accommodation surrounded by mountains, forest and meadows." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mala Hiša — Artisanal Alpine Haven" />
+  <meta property="og:description" content="Eco-friendly alpine accommodation in Logarska Dolina, Slovenia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Mala Hiša home">
+        <img src="assets/img/logo.svg" alt="Mala Hiša logo" class="brand-mark" />
+        <span class="brand-name">Mala Hiša</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#havens">Our Havens</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <a href="#booking" class="btn btn-primary header-cta">Book Now</a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#havens">Our Havens</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#booking" class="btn btn-primary">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <img src="assets/img/hero.svg" alt="Alpine landscape with a small house in Logarska Dolina" class="hero-bg" />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light">Artisanal Alpine Haven</p>
+        <h1 class="hero-title">Woven into the<br />Landscape.</h1>
+        <p class="hero-sub">A small house with a big soul — Nordic-inspired comfort surrounded by the
+          mountains, forests and meadows of Logarska Dolina.</p>
+        <a href="#havens" class="btn btn-primary btn-lg">Explore Our Havens</a>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING BAR ============ -->
+    <section class="booking-wrap" id="booking">
+      <div class="container">
+        <form class="booking-bar" onsubmit="return false;">
+          <div class="booking-field">
+            <label for="check-in">Check In</label>
+            <input type="date" id="check-in" name="check-in" />
+          </div>
+          <div class="booking-field">
+            <label for="check-out">Check Out</label>
+            <input type="date" id="check-out" name="check-out" />
+          </div>
+          <div class="booking-field">
+            <label for="guests">Guests</label>
+            <select id="guests" name="guests">
+              <option value="1">1 Guest</option>
+              <option value="2" selected>2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5">5+ Guests</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary booking-submit">Check Availability</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ OUR STORY ============ -->
+    <section class="story section" id="about">
+      <div class="container story-grid">
+        <div class="story-text reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="section-title">The Woven Landscape</h2>
+          <p>Mala Hiša — “the little house” — is a Nordic-inspired retreat tucked into one of Slovenia's
+            most beautiful glacial valleys. Here, high-end natural materials and honest craftsmanship
+            meet the raw beauty of the Alps.</p>
+          <p>Every detail, from hand-woven linen to locally sourced timber, is chosen to bring the calm
+            of the outdoors inside. Wake to birdsong, breathe mountain air, and let the valley set the pace.</p>
+          <a href="#experiences" class="link-arrow">Discover the experiences &rarr;</a>
+        </div>
+        <div class="story-collage reveal">
+          <img src="assets/img/story-1.svg" alt="Hand-woven linen detail" class="collage-tall" />
+          <img src="assets/img/story-2.svg" alt="Artisanal handcraft" />
+          <img src="assets/img/story-3.svg" alt="Natural wood texture" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR HAVENS ============ -->
+    <section class="havens section section-alt" id="havens">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Our Havens</p>
+          <h2 class="section-title">Spaces to Rest &amp; Roam</h2>
+          <p class="section-lead">Three distinct stays, each woven from natural materials and framed by
+            the valley around them.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="haven-card reveal">
+            <div class="haven-media"><img src="assets/img/haven-1.svg" alt="Nordic Loft interior" /></div>
+            <div class="haven-body">
+              <h3>Nordic Loft</h3>
+              <p>A warm, light-filled loft with timber beams, soft linens and a wood-burning stove —
+                made for slow mornings.</p>
+              <ul class="haven-meta">
+                <li>Sleeps 2</li><li>Mountain view</li><li>Wood stove</li>
+              </ul>
+              <a href="#booking" class="btn btn-outline">View Details</a>
+            </div>
+          </article>
+
+          <article class="haven-card reveal">
+            <div class="haven-media"><img src="assets/img/haven-2.svg" alt="Alpine A-Frame cabin" /></div>
+            <div class="haven-body">
+              <h3>Alpine A-Frame</h3>
+              <p>An iconic A-frame cabin perched at the meadow's edge, with floor-to-ceiling glass
+                framing the peaks.</p>
+              <ul class="haven-meta">
+                <li>Sleeps 3</li><li>Private deck</li><li>Forest view</li>
+              </ul>
+              <a href="#booking" class="btn btn-outline">View Details</a>
+            </div>
+          </article>
+
+          <article class="haven-card reveal">
+            <div class="haven-media"><img src="assets/img/haven-3.svg" alt="Meadow Retreat house" /></div>
+            <div class="haven-body">
+              <h3>Meadow Retreat</h3>
+              <p>A green-roofed retreat that disappears into the hillside — spacious, serene and
+                perfect for families.</p>
+              <ul class="haven-meta">
+                <li>Sleeps 5</li><li>Green roof</li><li>Garden</li>
+              </ul>
+              <a href="#booking" class="btn btn-outline">View Details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AMENITIES ============ -->
+    <section class="amenities section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Amenities</p>
+          <h2 class="section-title">Comforts of the Valley</h2>
+        </div>
+        <div class="amenity-grid">
+          <article class="amenity-card reveal">
+            <img src="assets/img/amenity-1.svg" alt="Bathhouse and sauna" />
+            <div class="amenity-text">
+              <h3>Bathhouse &amp; Saunas</h3>
+              <p>A handcrafted bathhouse with wood-fired sauna and cold plunge — restore after a day
+                on the trails.</p>
+            </div>
+          </article>
+          <article class="amenity-card reveal">
+            <img src="assets/img/amenity-2.svg" alt="Natural wood interior" />
+            <div class="amenity-text">
+              <h3>Natural Interiors</h3>
+              <p>Timber, wool and stone throughout, with underfloor heating and slow-living comforts.</p>
+            </div>
+          </article>
+          <article class="amenity-card reveal">
+            <img src="assets/img/amenity-3.svg" alt="Mountain views" />
+            <div class="amenity-text">
+              <h3>Endless Views</h3>
+              <p>Every window frames the valley — wake to mist on the peaks and end the day by the fire.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCES ============ -->
+    <section class="experiences section section-alt" id="experiences">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Experiences</p>
+          <h2 class="section-title">Live the Valley</h2>
+          <p class="section-lead">From sunrise hikes to candle-lit saunas, the days here are yours to shape.</p>
+        </div>
+        <div class="card-grid">
+          <article class="exp-card reveal">
+            <img src="assets/img/exp-1.svg" alt="Mountain hiking" />
+            <h3>Mountain Hiking</h3>
+            <p>Trailheads at your doorstep lead to waterfalls, ridges and alpine pastures.</p>
+          </article>
+          <article class="exp-card reveal">
+            <img src="assets/img/exp-2.svg" alt="Valley cycling" />
+            <h3>Valley Cycling</h3>
+            <p>Glide the valley floor or test the climbs — e-bikes available on request.</p>
+          </article>
+          <article class="exp-card reveal">
+            <img src="assets/img/exp-3.svg" alt="Wellness and sauna" />
+            <h3>Wellness &amp; Sauna</h3>
+            <p>Wood-fired heat, forest bathing and quiet — the art of doing nothing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCATION ============ -->
+    <section class="location section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Location</p>
+          <h2 class="section-title">Logarska Dolina, Slovenia</h2>
+          <p class="section-lead">In the heart of the Kamnik–Savinja Alps — a protected landscape park
+            of meadows, forest and limestone peaks.</p>
+        </div>
+        <div class="location-grid">
+          <a class="location-map reveal" href="https://maps.google.com/?q=Logarska+Dolina" target="_blank" rel="noopener">
+            <img src="assets/img/map.svg" alt="Map of Logarska Dolina" />
+            <span class="map-pin" aria-hidden="true"></span>
+          </a>
+          <div class="location-thumbs reveal">
+            <figure><img src="assets/img/loc-1.svg" alt="Robanov Kot" /><figcaption>Robanov Kot</figcaption></figure>
+            <figure><img src="assets/img/loc-2.svg" alt="Rinka Waterfall" /><figcaption>Rinka Waterfall</figcaption></figure>
+            <figure><img src="assets/img/loc-3.svg" alt="Alpine lake" /><figcaption>Alpine Lake</figcaption></figure>
+            <figure><img src="assets/img/loc-4.svg" alt="Valley trails" /><figcaption>Valley Trails</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta-banner">
+      <div class="container cta-inner reveal">
+        <h2>Your alpine haven awaits.</h2>
+        <p>Book your stay at Mala Hiša and let the valley do the rest.</p>
+        <a href="#booking" class="btn btn-light btn-lg">Check Availability</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand brand-footer">
+          <img src="assets/img/logo.svg" alt="Mala Hiša logo" class="brand-mark" />
+          <span class="brand-name">Mala Hiša</span>
+        </a>
+        <p>An artisanal alpine haven woven into the landscape of Logarska Dolina.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@malahisa.com">hello@malahisa.com</a></li>
+          <li><a href="tel:+38640000000">+386 40 000 000</a></li>
+          <li>Logarska Dolina, Slovenia</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#havens">Our Havens</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Booking.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Mala Hiša. All rights reserved.</p>
+      <p>Logarska Dolina &middot; Slovenia</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
