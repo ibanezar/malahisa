@@ -371,10 +371,32 @@ ul { list-style: none; padding: 0; }
   color: var(--green-700); margin-bottom: 0.4rem;
 }
 .amenity-text p { color: var(--muted); font-size: 0.95rem; }
+.amenity-list {
+  display: flex; flex-wrap: wrap; gap: 0.6rem;
+  margin-top: 2rem;
+}
+.amenity-list li {
+  background: var(--cream-2); color: var(--green-700);
+  font-size: 0.82rem; font-weight: 500;
+  padding: 0.45rem 0.9rem; border-radius: 999px;
+}
+.amenity-list li::before { content: "✓ "; color: var(--gold-dark); font-weight: 700; }
 
 /* ============================================================
    Location
    ============================================================ */
+.location-near {
+  margin-top: 1.25rem; display: grid; gap: 0.5rem;
+}
+.location-near li {
+  color: var(--muted); font-size: 0.95rem;
+  padding-left: 0.25rem;
+}
+.location-near b {
+  display: inline-block; min-width: 64px;
+  color: var(--green-700); font-weight: 700;
+}
+
 .location-grid {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
