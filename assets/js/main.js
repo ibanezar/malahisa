@@ -63,4 +63,20 @@
       }
     });
   }
+
+  /* ---- Forward "Check Availability" to Booking.com with the chosen dates ---- */
+  var bookingForm = document.getElementById("booking-form");
+  if (bookingForm) {
+    bookingForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var base = bookingForm.getAttribute("data-booking-url");
+      var params = [];
+      if (checkIn && checkIn.value) { params.push("checkin=" + checkIn.value); }
+      if (checkOut && checkOut.value) { params.push("checkout=" + checkOut.value); }
+      var guests = document.getElementById("guests");
+      if (guests && guests.value) { params.push("group_adults=" + guests.value); }
+      var url = params.length ? base + "?" + params.join("&") : base;
+      window.open(url, "_blank", "noopener");
+    });
+  }
 })();
