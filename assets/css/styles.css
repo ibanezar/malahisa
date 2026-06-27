@@ -416,6 +416,25 @@ ul { list-style: none; padding: 0; }
 }
 
 /* ============================================================
+   Good to know (facts band)
+   ============================================================ */
+.facts { background: var(--green-700); color: var(--cream); padding: 1.75rem 0; }
+.facts-list {
+  display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem;
+  justify-content: space-between; align-items: center;
+}
+.facts-list li { display: flex; flex-direction: column; gap: 0.25rem; }
+.facts-list span {
+  font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--gold);
+}
+.facts-list b { font-size: 1.05rem; font-weight: 600; }
+@media (max-width: 760px) {
+  .facts-list { gap: 1.1rem 2rem; }
+  .facts-list li { flex: 0 0 40%; }
+}
+
+/* ============================================================
    Reviews
    ============================================================ */
 .reviews-head {
