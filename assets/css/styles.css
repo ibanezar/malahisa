@@ -435,7 +435,30 @@ ul { list-style: none; padding: 0; }
 .review-badge-text { font-size: 0.95rem; font-weight: 600; color: var(--ink); line-height: 1.25; }
 .review-badge-text small { display: block; font-weight: 400; color: var(--muted); font-size: 0.78rem; }
 
+.review-cats {
+  display: flex; flex-wrap: wrap; gap: 0.75rem;
+  margin: 0 0 2.25rem;
+}
+.review-cats li {
+  display: flex; align-items: center; gap: 0.5rem;
+  background: var(--white); box-shadow: var(--shadow-sm);
+  padding: 0.5rem 0.9rem; border-radius: 999px;
+  font-size: 0.85rem; color: var(--muted);
+}
+.review-cats b { color: var(--green-700); font-size: 0.95rem; }
+
 .review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+.review-title {
+  font-family: var(--serif); font-weight: 600; font-size: 1.25rem;
+  color: var(--green-700); margin: 0;
+}
+.review-foot { margin-top: 2rem; text-align: center; }
+.review-foot a {
+  color: var(--green-700); font-weight: 600; letter-spacing: 0.02em;
+  border-bottom: 2px solid var(--gold); padding-bottom: 2px;
+  transition: color .2s, border-color .2s;
+}
+.review-foot a:hover { color: var(--gold-dark); border-color: var(--green-700); }
 .review-card {
   background: var(--white); border-radius: var(--radius);
   padding: 1.75rem; box-shadow: var(--shadow-sm);
